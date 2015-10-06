@@ -18,6 +18,7 @@ public class SampleBlockCore
 	public static Block rawAmpmHead;
 	public static Item anan;
 	public static Item korochan;
+	public static Item pipopa;
  
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
@@ -49,6 +50,12 @@ public class SampleBlockCore
                 'X', anan
                 
         );
+		
+		pipopa = new Item()
+				.setUnlocalizedName("pipopa")
+				.setCreativeTab(CreativeTabs.tabMaterials)
+				.setTextureName("testmod:pipopa");
+		GameRegistry.registerItem(pipopa, "ぴぽぱ");
 		
 		
 		GameRegistry.addSmelting(korochan,new ItemStack(anan),1.0f);
