@@ -10,7 +10,7 @@ import cpw.mods.fml.relauncher.Side;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 
-
+//みるくぷろていん
 @Mod(modid = "SampleEntity", name = "SampleEntity", version = "1.0.0")
 public class SampleEntityCore {
     @EventHandler
